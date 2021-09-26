@@ -1,0 +1,634 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.top{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    max-width: 1100px;
+}
+
+.toplogo{
+    width: 150px;
+    height:35px;
+    
+
+}
+
+.toplogo img{
+
+    width: 100%;
+}
+.menu{
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.menu a{
+
+    text-decoration: none;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;    
+    color: #5966F2;
+}
+
+.mid{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.midphoto{
+    margin-top: 50px;
+    align-items: center;
+    left: -200px;
+    max-width: 2000px;
+    transition: 1s;
+}
+
+
+
+.text{
+    padding: 15px 200px 15px ;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: rgb(233, 233, 233);
+    border: none;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;    
+   
+}
+
+.search i{
+
+    position: absolute;
+    left: 650px;
+    font-size: 20px;
+}
+
+
+                    /********************************* Top Seven Logo Card **************************************/
+
+.topsevenlogo{
+
+  display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 95%;
+   margin: 50px auto;
+}
+
+.announcements{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    width: 220px;
+    height: 260px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.288);
+    transform: scale(0.9);
+    transition: 1s;
+}
+
+.announcements:hover{
+    
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.425);
+    transform: scale(1);
+}
+
+.announcementsphoto{
+
+    width: 120px ;
+}
+
+.announcements hr{
+    margin-top: 20px;
+    width: 100px;
+    color:#5966F2 ;
+}
+
+.announcements h2{
+    text-decoration: none;
+    color: #5966F2;
+    font-family: Whitney,'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    
+}
+
+.announcements h3{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 200px;
+    text-align: center;
+    color: rgb(104 114 126);
+    font-family: Whitney,'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+    
+}
+
+
+
+.discordinterface{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    width: 220px;
+    height: 260px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.288);
+    transform: scale(0.9);
+    transition: 1s;
+}
+
+.discordinterface:hover{
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.425);
+    transform: scale(1);
+}
+
+.discordinterfacephoto{
+
+    margin-top: 20px;
+    width: 100px;
+    
+}
+
+.discordinterface hr{
+    margin-top: 20px;
+    width: 100px;
+    color:#5966F2 ;
+}
+
+.discordinterface h2{
+
+    color: #5966F2;
+    font-family: Whitney,'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.discordinterface h3{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 200px;
+    text-align: center;
+    color: rgb(104 114 126);
+    font-family: Whitney,'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+}
+
+
+.accountsetting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    width: 220px;
+    height: 260px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.288);
+    transform: scale(0.9);
+    transition: 1s;
+}
+
+.accountsetting:hover{
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.425);
+    transform: scale(1);
+}
+
+.accountsettingphoto{
+
+    margin-top: 20px;
+    width: 100px;
+    
+}
+
+.accountsetting hr{
+    margin-top: 20px;
+    width: 100px;
+    color:#5966F2 ;
+}
+
+.accountsetting h2{
+
+    color: #5966F2;
+    font-family: Whitney,'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.accountsetting h3{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 200px;
+    text-align: center;
+    color: rgb(104 114 126);
+    font-family: Whitney,'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+}
+
+
+
+
+.gettingstarted{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    width: 220px;
+    height: 260px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.288);
+    transform: scale(0.9);
+    transition: 1s;
+}
+
+.gettingstarted:hover{
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.425);
+    transform: scale(1);
+}
+
+.gettingstartedphoto{
+
+    margin-top: 20px;
+    width: 100px;
+    
+}
+
+.gettingstarted hr{
+    margin-top: 20px;
+    width: 100px;
+    color:#5966F2 ;
+}
+
+.gettingstarted h2{
+
+    color: #5966F2;
+    font-family: Whitney,'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.gettingstarted h3{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 200px;
+    text-align: center;
+    color: rgb(104 114 126);
+    font-family: Whitney,'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+}
+
+
+
+.serversetup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    width: 220px;
+    height: 260px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.288);
+    transform: scale(0.9);
+    transition: 1s;
+}
+
+.serversetup:hover{
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.425);
+    transform: scale(1);
+}
+
+.serversetupphoto{
+
+    margin-top: 20px;
+    width: 100px;
+    
+}
+
+.serversetup hr{
+    margin-top: 20px;
+    width: 100px;
+    color:#5966F2 ;
+}
+
+.serversetup h2{
+
+    color: #5966F2;
+    font-family: Whitney,'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.serversetup h3{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 200px;
+    text-align: center;
+    color: rgb(104 114 126);
+    font-family: Whitney,'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+}
+
+
+
+.communityprogram{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    width: 220px;
+    height: 260px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.288);
+    transform: scale(0.9);
+    transition: 1s;
+}
+
+.communityprogram:hover{
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.425);
+    transform: scale(1);
+}
+
+.communityprogramphoto{
+
+    margin-top: 20px;
+    width: 100px;
+    
+}
+
+.communityprogram hr{
+    margin-top: 20px;
+    width: 100px;
+    color:#5966F2 ;
+}
+
+.communityprogram h2{
+
+    color: #5966F2;
+    font-family: Whitney,'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.communityprogram h3{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 200px;
+    text-align: center;
+    color: rgb(104 114 126);
+    font-family: Whitney,'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+}
+
+
+
+.Perksandsubcriptions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    width: 220px;
+    height: 260px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.288);
+    transform: scale(0.9);
+    transition: 1s;
+}
+
+.Perksandsubcriptions:hover{
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.425);
+    transform: scale(1);
+}
+
+.Perksandsubcriptionsphoto{
+
+    margin-top: 20px;
+    width: 100px;
+    
+}
+
+.Perksandsubcriptions hr{
+    margin-top: 20px;
+    width: 100px;
+    color:#5966F2 ;
+}
+
+.Perksandsubcriptions h2{
+
+    color: #5966F2;
+    font-family: Whitney,'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.Perksandsubcriptions h3{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 200px;
+    text-align: center;
+    color: rgb(104 114 126);
+    font-family: Whitney,'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+}
+
+
+                /******************* Bot Three Logo Card********************************/            
+
+         
+.botthreelogo{
+
+    display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 40%;
+   margin: 30px auto;
+}                            
+
+
+.billing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    width: 220px;
+    height: 260px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.288);
+    transform: scale(0.9);
+    transition: 1s;
+}
+
+.billing:hover{
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.425);
+    transform: scale(1);
+}
+
+.billingphoto{
+
+    margin-top: 20px;
+    width: 100px;
+    
+}
+
+.billing hr{
+    margin-top: 20px;
+    width: 100px;
+    color:#5966F2 ;
+}
+
+.billing h2{
+
+    color: #5966F2;
+    font-family: Whitney,'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.billing h3{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 200px;
+    text-align: center;
+    color: rgb(104 114 126);
+    font-family: Whitney,'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+}
+
+
+
+
+.trusty{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    width: 220px;
+    height: 260px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.288);
+    transform: scale(0.9);
+    transition: 1s;
+}
+
+.trusty:hover{
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.425);
+    transform: scale(1);
+}
+
+.trustyphoto{
+
+    margin-top: 20px;
+    width: 100px;
+    
+}
+
+.trusty hr{
+    margin-top: 20px;
+    width: 100px;
+    color:#5966F2 ;
+}
+
+.trusty h2{
+
+    color: #5966F2;
+    font-family: Whitney,'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.trusty h3{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 200px;
+    text-align: center;
+    color: rgb(104 114 126);
+    font-family: Whitney,'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+}
+
+
+
+
+.faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    width: 220px;
+    height: 260px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.288);
+    transform: scale(0.9);
+    transition: 1s;
+}
+
+.faq:hover{
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.425);
+    transform: scale(1);
+}
+
+.faqphoto{
+
+    margin-top: 20px;
+    width: 100px;
+    
+}
+
+.faq hr{
+    margin-top: 20px;
+    width: 100px;
+    color:#5966F2 ;
+}
+
+.faq h2{
+
+    color: #5966F2;
+    font-family: Whitney,'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.faq h3{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 200px;
+    text-align: center;
+    color: rgb(104 114 126);
+    font-family: Whitney,'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+}
+
+@media (max-width:800px) {
+    .midphoto{
+
+        width: 1000px;
+    }
+
+    .toplogo{
+        margin-right: 100px;
+    }
+
+    
+}
